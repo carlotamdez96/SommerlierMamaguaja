@@ -2,7 +2,7 @@
 const agentInitScript = document.createElement("script");
 agentInitScript.type = "module";
 agentInitScript.innerHTML = `
-import Agent from 'https://cdn.jsdelivr.net/gh/@agent-embed/js@0.0.1/dist/web.js'
+import Agent from 'https://cdn.jsdelivr.net/npm/@agent-embed/js@0.0.1/dist/web.js'
 Agent.initStandard({
   agentName: "SommelierGuaja AI",
   apiHost: "https://app.predictabledialogs.com/web/incoming",
